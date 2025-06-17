@@ -1,0 +1,22 @@
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+# Poetry usually puts them outside the project, but if configured inside:
+.venv/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore data, logs, etc. that aren't part of the code
+# data/
+# logs/
